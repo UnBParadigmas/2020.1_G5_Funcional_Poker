@@ -1,37 +1,25 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(Paradigma)_(NomeDoProjeto). !!** 
-
-Paradigmas:
- - Funcional
- - Logico
- - Concorrente
- - SMA
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: 2020.1_G1_Logico_ProjetoRoteirosAereos!!**
- 
- (Apague essa seção)
-
-# NomeDoProjeto
+# Caixeiro Viajante
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
-**Nro do Grupo**: XX<br>
-**Paradigma**: XXXXXXXXXX<br>
+**Nro do Grupo**: 5<br>
+**Paradigma**: Funconal<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 15/0005563 |André Lucas Ferreira Lemos de Souza |
+| 16/0049458  | Eduardo Lima Ribeiro |
+| 16/0122996 |  Guilherme Antonio Deusdará Banci |
+| 15/0147821 | Rudmar Rodrigues Campos Júnior |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+Resolução funcional por meio da linguagem Haskell do problema do Caixeiro Viajante. O problema do caixeiro-viajante consiste na procura de um circuito que possua a menor distância, começando numa cidade qualquer, entre várias, visitando cada cidade precisamente uma vez e regressando à cidade inicial (Nilsson, 1982).
 
 ## Screenshots
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
+**Linguagens**: Haskell<br>
 **Tecnologias**: xxxxxx<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
