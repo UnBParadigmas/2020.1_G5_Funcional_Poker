@@ -7,13 +7,11 @@
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| 15/0005563 |André Lucas Ferreira Lemos de Souza |
 | 16/0049458  | Eduardo Lima Ribeiro |
-| 16/0122996 |  Guilherme Antonio Deusdará Banci |
 | 15/0147821 | Rudmar Rodrigues Campos Júnior |
 
 ## Sobre 
-Resolução funcional por meio da linguagem Haskell do problema do Caixeiro Viajante. O problema do caixeiro-viajante consiste na procura de um circuito que possua a menor distância, começando numa cidade qualquer, entre várias, visitando cada cidade precisamente uma vez e regressando à cidade inicial (Nilsson, 1982).
+Jogo de Pôquer simples implementado em Haskell.
 
 ## Screenshots
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
