@@ -8,7 +8,6 @@
 |Matrícula | Aluno |
 | -- | -- |
 | 16/0049458  | Eduardo Lima Ribeiro |
-| 15/0147821 | Rudmar Rodrigues Campos Júnior |
 
 ## Sobre 
 Jogo de Pôquer simples implementado em Haskell.

@@ -6,6 +6,5 @@ import Data.Function
 
 import Deck
 
-data TipoMao = Nada | Par | DoisPares | Trio | Quadra | Flush | FullHouse | StraightFlush
-    deriving (Show, Eq, Ord)
-
+data Mao = Vazio | Add Carta Mao
+    deriving Show
