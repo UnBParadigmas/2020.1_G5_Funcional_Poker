@@ -5,12 +5,12 @@ import Data.Ord ( comparing )
 import System.Random
 
 data Naipe = Copas | Ouros | Paus | Espadas 
-     deriving (Show, Eq, Ord)
+     deriving (Eq, Ord, Bounded, Enum)
 
 data Valor = Dois | Três | Quatro | Cinco | Seis
            | Sete | Oito | Nove | Dez | Valete
            | Rainha | Rei | Ás
-           deriving(Eq, Ord)
+           deriving(Eq, Ord, Bounded, Enum)
 
 instance Show Valor where
          show Dois              = "2"
@@ -25,10 +25,22 @@ instance Show Valor where
          show Valete            = "J"
          show Rainha            = "Q"
          show Rei               = "K"
-         show Ás               = "A"
+         show Ás                = "A"
+
+instance Show Naipe where
+         show Copas             = "C"
+         show Ouros             = "O"
+         show Paus              = "P"
+         show Espadas           = "E"
 
 data Carta = Carta Valor Naipe
      deriving (Show)
 
-deck :: Cartas Carta 
-deck = makeCards [Carta r s | r <- [ Dois .. Ás], s <- [Copas .. Espadas]]
+totalCartas :: (Bounded a, Enum a) => [a]
+totalCartas = [minBound..maxBound]
+
+type Deck = [Carta]
+
+deck :: Deck
+deck = [Carta r s | r <- totalCartas, s <- totalCartas]
+
